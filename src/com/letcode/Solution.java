@@ -29,6 +29,8 @@ public class Solution {
 
         return res;
     }
+
+
     //空间优化
     public static int oddCells1(int m, int n, int[][] indices) {
         int res = 0;
