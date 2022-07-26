@@ -2,7 +2,6 @@ package com.letcode;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-import javax.swing.tree.TreeNode;
 
 /**
  * Definition for a binary tree node.
