@@ -1,0 +1,52 @@
+Integer[] queue;
+    int size = 0;
+    static int head = 0;
+    static int tail = 0;
+
+        public CircularQueue(int k) {
+            queue = new Integer[k + 1];
+            size = queue.length;
+        }
+
+        public boolean enQueue(int value) {
+            if (isFull()) {
+                return false;
+            }
+            queue[tail] =  value;
+            tail = (tail + 1) % size;
+            return true;
+        }
+
+        public boolean deQueue() {
+
+            if (isEmpty()) {
+                return false;
+            }
+            queue[head] = null;
+            head = (head + 1) % size;
+            return true;
+        }
+
+        public int Front() {
+            Integer integer = queue[head];
+            if (integer == null) {
+                return -1;
+            }
+            return integer;
+        }
+
+        public int Rear() {
+            Integer integer = queue[(tail - 1 + size) % size];
+            if (integer == null) {
+                return -1;
+            }
+            return integer;
+        }
+
+        public boolean isEmpty() {
+            return  head == tail ;
+        }
+
+        public boolean isFull() {
+            return (tail + 1) % size == head;
+        }
