@@ -1,8 +1,6 @@
 package com.letcode.queue;
 
-import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.Deque;
 
 /**
  * @author lyn
