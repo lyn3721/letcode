@@ -1,4 +1,4 @@
-package com.letcode;
+package com.letcode.tree;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

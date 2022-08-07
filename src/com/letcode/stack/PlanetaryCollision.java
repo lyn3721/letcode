@@ -1,4 +1,4 @@
-package com.letcode;
+package com.letcode.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

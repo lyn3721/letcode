@@ -1,13 +1,8 @@
 package com.letcode;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Queue;
 
 /**
  * @author lyn

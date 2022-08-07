@@ -1,4 +1,4 @@
-package com.letcode;
+package com.letcode.tree;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
