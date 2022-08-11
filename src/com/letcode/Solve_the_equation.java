@@ -5,4 +5,5 @@ package com.letcode;/**
  * @since 2022/8/10 23:28
  */
 public class Solve_the_equation {
+
 }
