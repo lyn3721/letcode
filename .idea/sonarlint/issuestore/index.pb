@@ -25,3 +25,7 @@ S
 #src/com/letcode/tree/PruneTree.java,c/0/c014f0ce716628753a61f241187028b65ce298e0
 s
 Csrc/com/letcode/MINIMUM_VALUE_TO_GET_POSITIVE_STEP_BY_STEP_SUM.java,1/f/1fa83cbe0fe67d3ed5610ee7323b0db552548905
+W
+'src/com/letcode/Solve_the_equation.java,f/8/f87e18ff4f7f97eabddeb7b18965e6e61f898fc7
+W
+'src/com/letcode/Reformat_the_tring.java,c/9/c938eaf056798c8d781480f92bdd0ae688a503ca
