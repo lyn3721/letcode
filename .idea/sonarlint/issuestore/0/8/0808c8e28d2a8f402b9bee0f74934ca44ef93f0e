@@ -1,7 +1,0 @@
-
-j	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶È¦8Èæ¼ô¥0
-U
-java:S1854s"8Remove this useless assignment to local variable "root".(Ù¤Ìù8Êæ¼ô¥0
-F
-java:S1481s")Remove this unused "root" local variable.(Ù¤Ìù8Ìæ¼ô¥0
-U	java:S106t"9Replace this use of System.out or System.err by a logger.(öÈÛ¡8Ìæ¼ô¥0
