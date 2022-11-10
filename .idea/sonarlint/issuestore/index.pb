@@ -1,8 +1,6 @@
 
 ;
 letcode.iml,e/b/eb7ea54332c0da5aac4a6acb7fbc0cf235d2af32
-9
-	src/a.txt,0/d/0d8b587aceb3b3b0f251c5b40310f8c772942dd6
 S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 [
@@ -25,5 +23,3 @@ R
 -src/com/letcode/practice/array/Class_378.java,c/8/c8fdc1e4bac2c90e663eebcac4c5de728a6abe7b
 |
 Lsrc/com/letcode/practice/MINIMUM_VALUE_TO_GET_POSITIVE_STEP_BY_STEP_SUM.java,3/f/3f28f133a8210a615e1ca09e31f11aaee173da83
-Y
-)src/com/letcode/learn/sort/QuickSort.java,f/0/f08c032083bf2b6fcd8e859089d3e2fd5e56b853
