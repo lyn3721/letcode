@@ -1,6 +1,7 @@
 package com.letcode.learn.sort;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 /**
  * 堆排序
@@ -20,10 +21,14 @@ public class HeapSort {
         if (arr == null || arr.length < 2) {
             return;
         }
-        for (int i = 0; i < arr.length; i++) {
-            heapInsert(arr, i);
-        }
+//        for (int i = 0; i < arr.length; i++) {
+//            heapInsert(arr, i);
+//        }
         int heapSize = arr.length;
+
+        for (int i = heapSize - 1; i >= 0 ; i--) {
+            heapify(arr, i, heapSize);
+        }
         swap(arr, 0, --heapSize);
         while (heapSize > 0) {
             heapify(arr, 0, heapSize);
@@ -67,8 +72,19 @@ public class HeapSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[] {1,7,8,23,4,3,1,3,4,2,5};
-        heapSort(arr);
-        System.out.println(Arrays.toString(arr));
+//        int[] arr = new int[] {1,7,8,23,4,3,1,3,4,2,5};
+//        heapSort(arr);
+//        System.out.println(Arrays.toString(arr));
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        queue.add(1);
+        queue.add(2);
+        queue.add(8);
+        queue.add(0);
+        queue.add(19);
+        queue.add(1);
+        while(!queue.isEmpty()) {
+            System.out.println(queue.poll());
+        }
     }
+
 }

@@ -43,9 +43,9 @@ public class QuickSort {
         int tmp = arr[l];
         arr[l] = arr[r];
         arr[r] = tmp;
-//        arr[l] = arr[r] ^ arr[l];
-//        arr[r] = arr[r] ^ arr[l];
-//        arr[l] = arr[r] ^ arr[l];
+//        arr[l] = arr[l] ^ arr[r];
+//        arr[r] = arr[l] ^ arr[r];
+//        arr[l] = arr[l] ^ arr[r];
     }
 
 
