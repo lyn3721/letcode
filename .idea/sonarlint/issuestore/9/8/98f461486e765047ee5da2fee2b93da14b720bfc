@@ -1,10 +1,0 @@
-
-r
-java:S1488="\Immediately return this expression instead of assigning it to the temporary variable "cur1".(«òã 
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(çŠšøÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢‹ä€ÿÿÿÿÿ
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(„üÒ€úÿÿÿÿ
-N
-java:S18540"8Remove this useless assignment to local variable "cur2".(ùö½
-?
-java:S14810")Remove this unused "cur2" local variable.(ùö½
