@@ -45,6 +45,7 @@ public class Class_19 {
 
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         Deque<ListNode> node = new ArrayDeque<>();
+        ListNode cur2 = head;
         ListNode curHead = new ListNode(0, head);
         ListNode cur = curHead;
         while (cur != null) {
@@ -61,3 +62,4 @@ public class Class_19 {
         return cur1;
     }
 }
+
