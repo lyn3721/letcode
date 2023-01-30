@@ -53,4 +53,13 @@ public class ListNode {
     public void setRadom(ListNode radom) {
         this.radom = radom;
     }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "val=" + val +
+                ", next=" + next +
+                ", radom=" + radom +
+                '}';
+    }
 }
