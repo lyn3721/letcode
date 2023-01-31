@@ -1,7 +1,9 @@
 package com.letcode.practice.swordfingeroffer;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Deque;
+import java.util.List;
 
 /**
  * 剑指 Offer 58 - II. 左旋转字符串
@@ -48,7 +50,27 @@ public class Offer_58 {
 
 
     public static void main(String[] args) {
-        System.out.println(missingNumber(new int[]{0, 1}));
+//        System.out.println(missingNumber(new int[]{0, 1}));
+
+        System.out.println(reverseWords("  hello world!  "));
     }
+
+    public static String reverseWords(String s) {
+        String[] arr = s.split(" ");
+        List<String> list = new ArrayList<>();
+        for(int i = arr.length - 1; i >= 0; i --) {
+            list.add(arr[i]);
+        }
+        StringBuilder sb = new StringBuilder();
+        for(String a : list) {
+            if (!a.isEmpty()) {
+                sb.append(a.replace(" ", "") + " ");
+            }
+        }
+        String str = sb.toString();
+        return str.substring(0, str.length() - 1);
+    }
+
+
 
 }
